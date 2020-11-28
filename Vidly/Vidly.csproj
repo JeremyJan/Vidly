@@ -214,9 +214,30 @@
     <Compile Include="Migrations\202011281938172_PopulateBirthDate.Designer.cs">
       <DependentUpon>202011281938172_PopulateBirthDate.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202011282107494_AddMovieTable.cs" />
+    <Compile Include="Migrations\202011282107494_AddMovieTable.Designer.cs">
+      <DependentUpon>202011282107494_AddMovieTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202011282116572_AddGenreTypeToMovie.cs" />
+    <Compile Include="Migrations\202011282116572_AddGenreTypeToMovie.Designer.cs">
+      <DependentUpon>202011282116572_AddGenreTypeToMovie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202011282136577_FixMovieAndGenreTables.cs" />
+    <Compile Include="Migrations\202011282136577_FixMovieAndGenreTables.Designer.cs">
+      <DependentUpon>202011282136577_FixMovieAndGenreTables.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202011282205368_PopulateGenre.cs" />
+    <Compile Include="Migrations\202011282205368_PopulateGenre.Designer.cs">
+      <DependentUpon>202011282205368_PopulateGenre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202011282211480_PopulateMovies.cs" />
+    <Compile Include="Migrations\202011282211480_PopulateMovies.Designer.cs">
+      <DependentUpon>202011282211480_PopulateMovies.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MembershipType.cs" />
@@ -288,6 +309,7 @@
     <Content Include="Views\Movies\Index.cshtml" />
     <Content Include="Views\Customer\Index.cshtml" />
     <Content Include="Views\Customer\Details.cshtml" />
+    <Content Include="Views\Movies\Details.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -332,6 +354,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202011281938172_PopulateBirthDate.resx">
       <DependentUpon>202011281938172_PopulateBirthDate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202011282107494_AddMovieTable.resx">
+      <DependentUpon>202011282107494_AddMovieTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202011282116572_AddGenreTypeToMovie.resx">
+      <DependentUpon>202011282116572_AddGenreTypeToMovie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202011282136577_FixMovieAndGenreTables.resx">
+      <DependentUpon>202011282136577_FixMovieAndGenreTables.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202011282205368_PopulateGenre.resx">
+      <DependentUpon>202011282205368_PopulateGenre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202011282211480_PopulateMovies.resx">
+      <DependentUpon>202011282211480_PopulateMovies.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

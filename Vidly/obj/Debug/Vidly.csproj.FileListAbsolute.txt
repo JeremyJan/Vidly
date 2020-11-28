@@ -92,3 +92,8 @@ C:\Users\jerem\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddMembership
 C:\Users\jerem\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateMembershipNames.resources
 C:\Users\jerem\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddAndPopulateBirthDate.resources
 C:\Users\jerem\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateBirthDate.resources
+C:\Users\jerem\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddMovieTable.resources
+C:\Users\jerem\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddGenreTypeToMovie.resources
+C:\Users\jerem\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.FixMovieAndGenreTables.resources
+C:\Users\jerem\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateGenre.resources
+C:\Users\jerem\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateMovies.resources
